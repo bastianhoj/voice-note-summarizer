@@ -1,10 +1,10 @@
 # AI Voice Note Summarizer – Project Plan
 
 ## 0. GitHub Setup
-- [ ] Create a new GitHub repo: `voice-note-summarizer`.
-- [ ] Initialize repo with `README.md` and `.gitignore (Python)`.
-- [ ] Clone repo locally.
-- [ ] Commit and push initial files (`README.md`, `tasks.md`).
+- [x] Create a new GitHub repo: `voice-note-summarizer`.
+- [x] Initialize repo with `README.md` and `.gitignore (Python)`.
+- [x] Clone repo locally.
+- [x] Commit and push initial files (`README.md`, `tasks.md`).
 
 ## 1. Project Setup
 - [ ] Create virtual environment.
