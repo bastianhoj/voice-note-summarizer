@@ -7,8 +7,8 @@
 - [x] Commit and push initial files (`README.md`, `tasks.md`).
 
 ## 1. Project Setup
-- [ ] Create virtual environment.
-- [ ] Add `requirements.txt` with:
+- [x] Create virtual environment.
+- [x] Add `requirements.txt` with:
   - fastapi
   - uvicorn
   - streamlit
@@ -17,13 +17,13 @@
   - sqlite-utils
   - requests
   - streamlit-audiorecorder
-- [ ] Install dependencies.
-- [ ] Add `.env` with OpenAI API key.
-- [ ] Create `config.py` to load environment variables.
+- [x] Install dependencies.
+- [x] Add `.env` with OpenAI API key. (Note: Created `sample.env` instead of `.env.example`)
+- [x] Create `config.py` to load environment variables.
 
 ## 2. Backend (FastAPI)
-- [ ] Create folder `backend/` with `main.py`.
-- [ ] Setup FastAPI app with `/health` endpoint.
+- [x] Create folder `backend/` with `main.py`.
+- [x] Setup FastAPI app with `/health` endpoint.
 - [ ] Add `/transcribe`:
   - Accept audio file upload.
   - Use OpenAI Whisper (`gpt-4o-transcribe`) to transcribe.
