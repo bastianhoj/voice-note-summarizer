@@ -1,8 +1,9 @@
 fastapi
 uvicorn
 streamlit
-openai
+assemblyai
 python-dotenv
 sqlite-utils
 requests
 streamlit-audiorecorder
+python-multipart

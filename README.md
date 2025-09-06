@@ -1,7 +1,7 @@
 # 🎙️ AI Voice Note Summarizer
 
 A simple AI project where you can record voice notes, transcribe them into text, and automatically generate summaries, TODO lists, and tags.  
-Built with **FastAPI**, **Streamlit**, **OpenAI Whisper/GPT**, and **SQLite**.  
+Built with **FastAPI**, **Streamlit**, **AssemblyAI**, and **SQLite**.  
 
 ---
 
@@ -19,7 +19,7 @@ Built with **FastAPI**, **Streamlit**, **OpenAI Whisper/GPT**, and **SQLite**.
 - **Backend:** FastAPI + Uvicorn  
 - **Frontend:** Streamlit (+ `streamlit-audiorecorder`)  
 - **Database:** SQLite  
-- **AI Models:** OpenAI Whisper (speech-to-text) + GPT (text summarization)  
+- **AI Models:** AssemblyAI (speech-to-text and text processing)  
 - **Infra:** Python + dotenv  
 
 ---
@@ -47,7 +47,7 @@ pip install -r requirements.txt
 4. **Set up environment variables**
 Create a `.env` file in the root directory:
 ```env
-OPENAI_API_KEY=your_openai_api_key
+ASSEMBLYAI_API_KEY=your_assemblyai_api_key
 DB_PATH=notes.db
 API_HOST=127.0.0.1
 API_PORT=8000
